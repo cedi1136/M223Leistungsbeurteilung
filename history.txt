@@ -1,0 +1,53 @@
+commit 45ed2daf4d2bd285ff5bc9f7a56063990f7532bc
+Author: cedi1136 <cedric-wagner@gmx.ch>
+Date:   Tue Dec 5 15:28:39 2023 +0000
+
+    Booking tests
+
+commit 0eb8b3297a2f9a0b5f04e890d3e7561dd2c00854
+Author: cedi1136 <cedric-wagner@gmx.ch>
+Date:   Tue Dec 5 15:28:10 2023 +0000
+
+    ApplicationUser change
+
+commit 0b29d0c60b73a62cf02475e94ed1f052b5647cc8
+Author: cedi1136 <cedric-wagner@gmx.ch>
+Date:   Tue Dec 5 15:26:36 2023 +0000
+
+    Booking Endpoints added
+
+commit 852ed264e5fc86097f6ef223ca73c5658082dc95
+Author: cedi1136 <cedric-wagner@gmx.ch>
+Date:   Tue Dec 5 15:24:49 2023 +0000
+
+    show pngs
+
+commit 11888ce857aa3b346e49557f994a53afbae14b96
+Author: cedi1136 <cedric-wagner@gmx.ch>
+Date:   Tue Dec 5 15:20:59 2023 +0000
+
+    Fachklassendiagramm, Schnittstellenplanung change
+
+commit cced4c7210e2e6c64a0cba170a137df4783325c1
+Author: cedi1136 <cedric-wagner@gmx.ch>
+Date:   Tue Dec 5 14:22:43 2023 +0000
+
+    test for ApplicationUser
+
+commit 37eefc9148048fc1cc19666f921c53fe793130e0
+Author: cedi1136 <cedric-wagner@gmx.ch>
+Date:   Tue Dec 5 12:35:26 2023 +0000
+
+    Readme changes
+
+commit dcede75fad61e6bcd073f3734d1e5fd334d6e062
+Author: cedi1136 <cedric-wagner@gmx.ch>
+Date:   Mon Dec 4 15:57:30 2023 +0100
+
+    base from 4.2
+
+commit 9f4b91a9dab018235534a4ab3f802669b9fc6944
+Author: cedi1136 <96241963+cedi1136@users.noreply.github.com>
+Date:   Mon Dec 4 15:42:35 2023 +0100
+
+    Initial commit
