@@ -14,6 +14,13 @@ Coworking Space ist ein digitales Verwaltungssystem, das die Organisationsprozes
 1. Probiere die Client-Applikation unter http://localhost:8080 aus.
 1. Schaue die API auf http://localhost:8080/q/swagger-ui/ an.
 
+
+## Aenderungen am Fachklassendiagramm und der Schnittstellenplanung
+![Schnittstellenplanung](/Screenshot%202023-12-05%20161036.png)
+![Fachklassendiagramm](/Drawio_2.1.drawio%20(2).png)
+
+
+
 ## Datenbank
 
 Die Daten werden in einer PostgreSQL-Datenbank gespeichert. In der Entwicklungsumgebung wird diese in der [docker-compose-yml](./.devcontainer/docker-compose.yml) konfiguriert.
