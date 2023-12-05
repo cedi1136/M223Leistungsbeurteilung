@@ -1,6 +1,6 @@
-# Übungsprojekt: Punch Clock
+# Projekt: Coworking Space in Zürich 
 
-Punch Clock ist ein Zeiterfassungssystem, welches mit Quarkus entwickelt wird.
+Coworking Space ist ein digitales Verwaltungssystem, das die Organisationsprozesse eines Coworking Spaces in der Agglomeration von Zürich optimieren soll. Dieses Projekt hat zum Ziel, einen minimalen Prototypen zu entwickeln, bestehend aus einer Server- und einer Client-Anwendung. Die Client-Anwendung interagiert über eine HTTP-API mit der Server-Anwendung. In dieser Umgebung agieren verschiedene Akteure, darunter Administrator, Mitglied und Besucher.
 
 ## Erste Schritte
 
