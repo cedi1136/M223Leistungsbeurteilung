@@ -1,6 +1,8 @@
 package ch.zli.m223;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.util.Arrays;
 import java.util.HashSet;
 
@@ -12,6 +14,7 @@ import javax.transaction.Transactional;
 
 import ch.zli.m223.model.ApplicationUser;
 import ch.zli.m223.model.ApplicationUser.UserRole;
+import ch.zli.m223.model.Booking;
 import ch.zli.m223.model.Category;
 import ch.zli.m223.model.Entry;
 import ch.zli.m223.model.Tag;
@@ -37,6 +40,15 @@ public class IntegrationTestDataService {
     userVisitor.setUserRole(UserRole.VISITOR);
 
     entityManager.persist(userVisitor);
+
+    var booking = new Booking();
+    booking.setApplicationUser(userVisitor);
+    booking.setBookingDate(LocalDate.now());
+    booking.setStartTime(LocalTime.now());
+    booking.setDurationInHours(8);
+    booking.setStatus(Booking.Status.PENDING);
+
+    entityManager.persist(booking);
 
     // Categories
     // var projectACategory = new Category();

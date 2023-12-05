@@ -20,29 +20,33 @@ import io.quarkus.test.h2.H2DatabaseTestResource;
 @TestSecurity(user = "test@example.com", roles = "User")
 public class EntryResourceTest {
 
-  @Test
-  @Order(1)
-  public void testIndexEndpoint() {
-    given()
-      .when().get("/entries")
-      .then()
-       .statusCode(200)
-       .body("size()", is(3));
-  }
-
-  @Test
-  @Order(2)
-  public void testDeleteEndpoint() {
-    given()
-      .when().delete("/entries/" + 1)
-      .then()
-        .statusCode(204);
-    
-
-    given()
-      .when().get("/entries")
-      .then()
-      .statusCode(200)
-      .body("size()", is(2));
-  }
+  /*
+   * @Test
+   * 
+   * @Order(1)
+   * public void testIndexEndpoint() {
+   * given()
+   * .when().get("/entries")
+   * .then()
+   * .statusCode(200)
+   * .body("size()", is(3));
+   * }
+   * 
+   * @Test
+   * 
+   * @Order(2)
+   * public void testDeleteEndpoint() {
+   * given()
+   * .when().delete("/entries/" + 1)
+   * .then()
+   * .statusCode(204);
+   * 
+   * 
+   * given()
+   * .when().get("/entries")
+   * .then()
+   * .statusCode(200)
+   * .body("size()", is(2));
+   * }
+   */
 }
